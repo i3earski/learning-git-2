@@ -18,17 +18,42 @@ header {
 }
 
 .center-text {
-    color: blue;
+    color: rgb(101, 173, 231);
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-section, footer {
+section {
     margin-top: 30px;
     text-align: left; /* Tekst wewnątrz kontenerów będzie wyrównany do lewej */
 }
 
+.footer-text {
+    margin-top: 50px;
+    padding-bottom: 5px;
+    font-size: 0.7em;
+}
+
 .align-content-lyric {
     text-align: left; /* Wyrównanie tekstu do lewej */
-    text-indent: 2em; /* Wcięcie dla pierwszej linijki */
+    /*text-indent: 2em;  Wcięcie dla pierwszej linijki */
     padding-left: 20px; /* Dodaj padding, aby dodać więcej odstępu z lewej strony */
+}
+.lyric-indent {
+    text-indent: 2em; /* Wcięcie dla pierwszej linijki */
+    margin-left: 2em;
+}
+
+.author {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+}
+.title {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
 }
